@@ -18,10 +18,11 @@ craftingTable.addShaped("circuit_2", <item:ic2:circuit>, [
 	[copper_cable, redstone, copper_cable]
 ]);
 
+
 craftingTable.remove(<item:ic2:advanced_circuit>);
 craftingTable.addShaped("tier_2_circuit", <item:ic2:advanced_circuit>, [
 	[redstone, lapis, redstone], 
-	[<item:minecraft:glowstone_dust>, <item:mekanism:advanced_control_circuit>, <item:minecraft:glowstone_dust>], 
+	[glowstone, <item:mekanism:advanced_control_circuit>, glowstone], 
 	[redstone, lapis, redstone]
 ]);
 craftingTable.addShaped("tier_2_circuit_2", <item:ic2:advanced_circuit>, [
@@ -30,12 +31,14 @@ craftingTable.addShaped("tier_2_circuit_2", <item:ic2:advanced_circuit>, [
 	[redstone, <item:minecraft:glowstone_dust>, redstone]
 ]);
 
+
 craftingTable.remove(<item:ic2:machine_block>);
 craftingTable.addShaped("basic_mashine_casing", <item:ic2:machine_block>, [
 	[refined_iron, refined_iron, refined_iron], 
 	[refined_iron, <item:create:andesite_casing>, refined_iron], 
 	[refined_iron, refined_iron, refined_iron]
 ]);
+
 
 craftingTable.remove(<item:ic2:complex_circuit>);
 craftingTable.addShaped("tier_3_circuit", <item:ic2:complex_circuit>, [
