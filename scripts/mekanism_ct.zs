@@ -7,6 +7,10 @@ var iron = <tag:items:forge:ingots/iron>;
 var circuit = <item:ic2:circuit>;
 var osmium = <tag:items:forge:ingots/osmium>;
 var ic2_advansed_circuit = <item:ic2:advanced_circuit>;
+var planks = <tag:items:minecraft:planks>;
+var glasss = <tag:items:forge:glass>;
+
+
 
 // REMOVE - mekanism/basic/factory
 craftingTable.remove(<item:mekanism:energy_tablet>);
@@ -142,7 +146,7 @@ craftingTable.addShaped("advanced_factory_9", <item:mekanism:advanced_sawing_fac
 craftingTable.remove(<item:mekanism:basic_tier_installer>);
 craftingTable.addShaped("basic_something_1", <item:mekanism:basic_tier_installer>, [
     [redstone, circuit, redstone],
-    [steel, <tag:items:minecraft:planks>, steel],
+    [steel, planks, steel],
     [redstone, circuit, redstone]
 ]);
 
@@ -150,7 +154,7 @@ craftingTable.addShaped("basic_something_1", <item:mekanism:basic_tier_installer
 craftingTable.remove(<item:mekanism:advanced_tier_installer>);
 craftingTable.addShaped("advanced_something_1", <item:mekanism:advanced_tier_installer>, [
     [redstone, ic2_advansed_circuit, redstone],
-    [osmium, <tag:items:minecraft:planks>, osmium],
+    [osmium, planks, osmium],
     [redstone, ic2_advansed_circuit, redstone]
 ]);
 
@@ -208,7 +212,7 @@ craftingTable.addShaped("teleporter", <item:mekanism:teleporter>, [
 
 craftingTable.remove(<item:mekanism:basic_fluid_tank>);
 craftingTable.addShaped("basic_fluid_tank", <item:mekanism:basic_fluid_tank>, [
-	[<item:minecraft:redstone>, iron, <item:minecraft:redstone>], 
+	[redstone, iron, redstone], 
 	[iron, <item:minecraft:bucket>, iron], 
-	[<item:minecraft:redstone>, iron, <item:minecraft:redstone>]
+	[redstone, iron, redstone]
 ]);
